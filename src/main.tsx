@@ -1,11 +1,12 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
-import { PortafolioWeb } from './PortafolioWeb'
+import { RouterProvider } from 'react-router'
+import { Approuter } from './app.router'
 
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <PortafolioWeb />
+    <RouterProvider router={Approuter} />
   </StrictMode>,
 )

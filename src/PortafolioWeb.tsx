@@ -1,9 +1,12 @@
+import { Header } from "./components/custom/Header"
+import { Experience } from "./Pages/Experience"
 
 export const PortafolioWeb = () => {
-  return (
-    <div>
-        portafolio 
-    </div>
-  )
+  return <>
+  <Header/>
+  <Experience/>
+  </>
+  
+  
 }
 
