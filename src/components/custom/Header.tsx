@@ -23,7 +23,7 @@ export const Header = () => {
     <header
       className={cn(
         "fixed top-0 left-0 right-0 z-50 transition-all duration-300",
-        "bg-background/80 backdrop-blur-md border-b border-border shadow-sm"
+        "bg-transparent backdrop-blur-sm border-b border-border/30"
       )}
     >
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
@@ -72,7 +72,7 @@ export const Header = () => {
         {/* Mobile Navigation */}
         <div
           className={cn(
-            "lg:hidden overflow-hidden transition-all duration-300",
+            "lg:hidden overflow-hidden transition-all duration-300 bg-background/85 backdrop-blur-md rounded-b-md",
             isMenuOpen ? "max-h-64 pb-4" : "max-h-0"
           )}
         >
