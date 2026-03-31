@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react"
+import {  useState } from "react"
 import { Outlet } from "react-router"
 import { Header } from "@/components/custom/Header"
 import { SplashScreen } from "@/components/custom/SplashScreen"
